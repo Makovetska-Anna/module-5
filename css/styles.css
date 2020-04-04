@@ -1,0 +1,357 @@
+
+
+
+.clearfix{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type='checkbox'].visually-hidden,
+input[type='radio'].visually-hidden{
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0px;
+padding: 0px;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
+
+
+.container{
+  margin: auto;
+  width: 1600px;
+  height: auto;
+}
+
+
+.menu-nav{
+  margin: 0 auto;
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+
+
+
+.logo {
+  float: left;
+}
+
+.logo:first-letter {
+  color: #1abc9c;
+}
+
+.mart{
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  line-height: 32px;
+  font-weight: 300;
+  text-decoration: none;
+  color: #555252;
+  font-weight: 300;
+}
+
+
+
+
+.menu-section {
+  list-style: none;
+  float: right;
+  padding: 0px;
+  margin-left: 550px;
+}
+.menu-section-item:hover{
+  color: #1abc9c;
+}
+.link {
+  margin-right: 30px;
+  float: left;
+}
+
+.link:nth-child(6n){
+  margin-right: 0px;
+}
+
+
+
+.menu-section-item{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 11px;
+  text-decoration: none;
+  color: #0f0101;
+}
+
+
+.tours{
+	height: 600px;
+	width: 1600px;
+	background-image: url(https://i.ibb.co/Xk88tRv/background.png);
+	position: relative;
+}
+
+
+
+.tours-title{
+	position: absolute;
+	font-family: 'Roboto';
+	font-weight: 900;
+	font-size: 60px;
+	line-height: 82px;
+	border: none;
+	margin: 0px;
+	padding: 0px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #ffffff;
+}
+
+.menu-tour{
+	position: absolute;
+	font-size: 24px;
+	font-family: 'Roboto';
+	font-weight: 200;
+	line-height: 54px;
+	color: #ffffff;
+	border: none;
+	margin: 0px;
+	padding: 0px;
+	top: 80px;
+	left: 0%;
+}
+
+.left{
+	position: absolute;
+	width: 104px;
+	height: 104px;
+	border: none;
+	margin: 0px;
+	padding: 0px;
+	opacity: 0.5;
+	background: no-repeat center url(https://i.ibb.co/BwHTVdr/button-left.png);
+	background-color: #1abc9c;
+	top: 50%;
+	left: 245px;
+	
+
+
+}
+
+
+.right{
+	position: absolute;
+	width: 104px;
+	height: 104px;
+	border: none;
+	margin: 0px;
+	padding: 0px;
+	opacity: 0.5;
+	background: no-repeat center url(https://i.ibb.co/1q2KT4T/button-right.png);
+	background-color: #1abc9c;
+	top: 50%;
+	right: 245px;
+	
+
+}
+
+.arrow:hover{
+	background-color: #1abc9c;
+	opacity: 1;
+	cursor: pointer;
+}
+
+.collection{
+	background-color: #e9f0fd;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-left: 245px;
+	padding-right: 245px;
+}
+	
+
+.title{
+	text-align: center;
+	font-family: 'Roboto';
+	font-weight: 900;
+	color: #515151;
+	font-size: 48px;
+	line-height: 32px;
+	margin: 0;
+	
+
+}
+.title::after{
+	display: block;
+  content: "";
+  width: 164px;
+  height: 7px;
+  background-color: #1abc9c;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.background{
+	position: absolute;
+	width: 240px;
+	height: 300px;
+  background-color: #515151;
+	opacity: 0;
+  top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	cursor: pointer;
+}
+
+.card{
+	position: relative;
+	float: left;
+	margin-right: 30px;
+}
+.card:nth-child(5){
+	margin-right: 0px;
+}
+
+.card:hover .background{
+	opacity: 0.5;
+}
+.card:hover .mini-card{
+	opacity: 1;
+}
+
+.card:hover .cost{
+	background: linear-gradient(to right, #1abc9c 80%, #7fd9c7 20%);
+}
+
+
+.mini-card{
+	position: absolute;
+	list-style: none;
+  top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 0;
+	margin: 0;
+	border: none;
+	opacity: 0;
+	
+}
+
+.item{
+	width: 50px;
+	height: 50px;
+	border: 1px solid #ffffff;
+	margin: 0;
+	padding: 0;
+  cursor: pointer;
+	
+}
+
+.item:hover{
+	background-color: #1abc9c;
+	opacity: 1;
+}
+
+.like{
+	background: no-repeat center url(https://i.ibb.co/C7RQPtN/heart.png);
+}
+.arow{
+	background: no-repeat center url(https://i.ibb.co/qg0TYHs/arrow.png);
+}
+.oclock{
+	background: no-repeat center url(https://i.ibb.co/sjvxqQp/ocklock.png);
+}
+
+.item-card{
+	width: 166px;
+	height: 50px;
+	padding-right: 12px;
+	margin: 0;
+	border: 1px solid #ffffff;
+	background: no-repeat left url(https://i.ibb.co/422NtsZ/basket.png);
+	background-color: #323232;
+	background-position: top 10px left 10px;
+	text-align: right;
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 35px;
+	font-family: "Open Sans";
+	font-weight: 400;
+  cursor: pointer;
+
+}
+.ikon{
+	float: left;
+	margin-right: 8px;
+}
+.ikon:nth-child(3){
+	margin-right: 0px;
+}
+
+
+.cost{
+	width: 255px;
+	height: 40px;
+	background: linear-gradient( to right, #323232 80%, #8c8c8c 20%);
+	position: absolute;
+	bottom: 0px;
+	z-index: 1;
+	cursor: pointer;
+
+}
+.name{
+	font-family: 'Roboto';
+	font-size: 18px;
+	font-weight: 800;
+	color: #ffffff;
+	float: left;
+	margin-top: 12px;
+	margin-left: 12px;
+}
+
+.price{
+	font-family: 'Roboto';
+	font-size: 18px;
+	font-weight: 800;
+	color: #ffffff;
+	float: right;
+	margin-top: 12px;
+	margin-right: 12px;
+	
+}
+ .footer{
+	 position: relative;
+	 background-color: #323232;
+	 height: 90px;
+	 text-align: center;
+	 margin: 0;
+	 padding: 0;
+	 border: 0;
+}
+
+.text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-family: 'Open Sans';
+	font-size: 16px;
+	line-height: 28px;
+	font-weight: 300;
+	font-style: normal;
+}
+.color{
+	color: #1abc9c;
+	font-style: normal;
+}
